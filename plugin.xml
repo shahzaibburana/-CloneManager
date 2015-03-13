@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="CloneManager.commands.sampleCommand"
+            class="com.plugin.clonemanager.handlers.SampleHandler">
+      </handler>
+   </extension>
+   
+      <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Our Tool"
+            id="wizard">
+      </category>
+      <wizard
+            name="Clone Detection Settings For Our Tool"
+            icon="icons/logo.jpg"
+            category="wizard"
+            class="com.plugin.clonemanager.wizards.CloneDetectionSettingsWizard"
+            id="wizards.CloneDetectionSettingsWizard">
+      </wizard>
+      <wizard
+            class="com.plugin.clonemanager.wizards.CliqueSelectionWizard"
+            id="CliqueSelectionWizard"
+            name="CliqueSelectionWizard">
+      </wizard>	
+   </extension>
+   
+      <extension
+       point="org.eclipse.ui.actionSets">
+       <actionSet
+       		label="Clone Analyzer Action Set"
+       		visible="true"
+       		id="edu.nus.cloneanalyzer.cloneAnalyzerActionSet">
+          <menu
+                id="edu.nus.cloneanalyzer.cloneAnalyzerMenu"
+                label="Clone Analyzer">
+             	<separator name="settingsGroup"/>
+          </menu>
+          <action
+                class="com.plugin.clonemanager.wizards.CloneDetectionSettingsActionDelegate"
+                icon="icons/logo.jpg"
+                id="edu.nus.cloneanalyzer.cloneAnalyzerActionSet.detectionSettingsAction"
+                label="Clone Detection Settings"
+                menubarPath="edu.nus.cloneanalyzer.cloneAnalyzerMenu/settingsGroup"
+                state="true"
+                style="push"
+                toolbarPath="settingsGroup"
+                tooltip="Clone Detection Settings">
+          </action>
+       </actionSet>
+	</extension>
+      <extension
+            point="org.eclipse.ui.views">
+         <view
+               class="com.plugin.clonemanager.views.MccView"
+               id="mccView"
+               name="Method Clones"
+               restorable="true">
+         </view>
+         <view
+               class="com.plugin.clonemanager.views.SccView"
+               id="sccView"
+               name="Simple Clones"
+               restorable="true">
+         </view>
+      </extension>
+      <extension
+            id="com.plugin.clonemanager.customtextmarker"
+            name="CustomTextMarker"
+            point="org.eclipse.core.resources.markers">
+         <super
+               type="org.eclipse.core.resources.textmarker">
+         </super>
+      </extension>
+      <extension
+            point="org.eclipse.ui.editors.annotationTypes">
+         <type
+               markerType="com.plugin.clonemanager.customtextmarker"
+               name="com.plugin.clonemanager.customtextmarker">
+         </type>
+      </extension>
+      <extension
+         point="org.eclipse.ui.editors.markerAnnotationSpecification">
+      <specification
+            annotationType="com.plugin.clonemanager.customtextmarker"
+            colorPreferenceKey="com.plugin.clonemanager.color"
+            colorPreferenceValue="192,255,192"
+            contributesToHeader="false"
+            highlightPreferenceKey="com.plugin.clonemanager.highlight"
+            highlightPreferenceValue="true"
+            includeOnPreferencePage="true"
+            label="Color Marker"
+            overviewRulerPreferenceKey="com.plugin.clonemanager.overview"
+            overviewRulerPreferenceValue="true"
+            presentationLayer="0"
+            textPreferenceKey="com.plugin.clonemanager.text"
+            textPreferenceValue="true"
+            textStylePreferenceValue="BOX"
+            verticalRulerPreferenceKey="com.plugin.clonemanager.ruler"
+            verticalRulerPreferenceValue="true">
+      </specification>
+   </extension>
+</plugin>

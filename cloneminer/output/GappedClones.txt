@@ -1,0 +1,47 @@
+C:\Users\RA\javasrc\java\nio\DirectDoubleBufferS.java	230.12-242.38	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectDoubleBufferS.java	320.12-332.40	336.47-345.5	
+C:\Users\RA\javasrc\java\nio\DirectDoubleBufferU.java	230.12-242.38	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectDoubleBufferU.java	320.12-332.40	336.47-345.5	
+
+C:\Users\RA\javasrc\java\nio\DirectIntBufferS.java	230.12-242.37	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectIntBufferS.java	320.12-332.39	336.47-345.5	
+C:\Users\RA\javasrc\java\nio\DirectIntBufferU.java	230.12-242.37	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectIntBufferU.java	320.12-332.39	336.47-345.5	
+
+C:\Users\RA\javasrc\java\nio\DirectCharBufferS.java	230.12-242.38	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectCharBufferS.java	320.12-332.40	336.47-345.5	
+C:\Users\RA\javasrc\java\nio\DirectCharBufferU.java	230.12-242.38	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectCharBufferU.java	320.12-332.40	336.47-345.5	
+
+C:\Users\RA\javasrc\java\nio\DirectLongBufferS.java	230.12-242.38	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectLongBufferS.java	320.12-332.40	336.47-345.5	
+C:\Users\RA\javasrc\java\nio\DirectLongBufferU.java	230.12-242.38	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectLongBufferU.java	320.12-332.40	336.47-345.5	
+
+C:\Users\RA\javasrc\java\nio\ByteBuffer.java	1083.12-1092.80	1094.18-1102.5	
+C:\Users\RA\javasrc\java\nio\CharBuffer.java	1110.12-1119.80	1121.18-1129.5	
+C:\Users\RA\javasrc\java\nio\DoubleBuffer.java	1110.12-1119.80	1121.20-1129.5	
+C:\Users\RA\javasrc\java\nio\FloatBuffer.java	1084.12-1093.80	1095.19-1103.5	
+C:\Users\RA\javasrc\java\nio\IntBuffer.java	1110.12-1119.80	1121.17-1129.5	
+C:\Users\RA\javasrc\java\nio\LongBuffer.java	1110.12-1119.80	1121.18-1129.5	
+C:\Users\RA\javasrc\java\nio\ShortBuffer.java	1083.12-1092.80	1094.19-1102.5	
+
+C:\Users\RA\javasrc\java\nio\ByteBuffer.java	1116.12-1118.77	1120.18-1130.5	
+C:\Users\RA\javasrc\java\nio\CharBuffer.java	1143.12-1145.77	1147.18-1157.5	
+C:\Users\RA\javasrc\java\nio\DoubleBuffer.java	1143.12-1145.77	1147.20-1157.5	
+C:\Users\RA\javasrc\java\nio\FloatBuffer.java	1117.12-1119.77	1121.19-1131.5	
+C:\Users\RA\javasrc\java\nio\IntBuffer.java	1143.12-1145.77	1147.17-1157.5	
+C:\Users\RA\javasrc\java\nio\LongBuffer.java	1143.12-1145.77	1147.18-1157.5	
+C:\Users\RA\javasrc\java\nio\ShortBuffer.java	1116.12-1118.77	1120.19-1130.5	
+
+C:\Users\RA\javasrc\java\nio\DirectByteBuffer.java	230.12-242.38	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectByteBuffer.java	320.12-332.40	336.47-345.5	
+C:\Users\RA\javasrc\java\nio\DirectFloatBufferS.java	230.12-242.37	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectFloatBufferS.java	320.12-332.39	336.47-345.5	
+C:\Users\RA\javasrc\java\nio\DirectFloatBufferU.java	230.12-242.37	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectFloatBufferU.java	320.12-332.39	336.47-345.5	
+C:\Users\RA\javasrc\java\nio\DirectShortBufferS.java	228.12-240.39	245.49-255.5	
+C:\Users\RA\javasrc\java\nio\DirectShortBufferS.java	318.12-330.41	334.47-343.5	
+C:\Users\RA\javasrc\java\nio\DirectShortBufferU.java	230.12-242.39	247.49-257.5	
+C:\Users\RA\javasrc\java\nio\DirectShortBufferU.java	320.12-332.41	336.47-345.5	
+

@@ -1,0 +1,100 @@
+    static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+
+************THIS IS THE END OF THE METHOD*****************
+static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+***********THIS IS THE END OF THIS SCC CLONE INSTANCE CODE**************
+static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+***********THIS IS THE END OF THIS NEW SCC CLONE INSTANCE CODE**************
+AT INDEX : 0 :     
+AT INDEX : 1 : 104,static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+
+AT INDEX : 2 : 
+
+****************** THATS IT FOR THIS SPECIFIC METHOD CLONE INSTANCE*********************
+    static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+
+************THIS IS THE END OF THE METHOD*****************
+static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+***********THIS IS THE END OF THIS SCC CLONE INSTANCE CODE**************
+static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+***********THIS IS THE END OF THIS NEW SCC CLONE INSTANCE CODE**************
+AT INDEX : 0 :     
+AT INDEX : 1 : 104,static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+
+AT INDEX : 2 : 
+
+****************** THATS IT FOR THIS SPECIFIC METHOD CLONE INSTANCE*********************
+    static void putShortL(long a, short x) {
+        _put(a, short0(x));
+        _put(a + 1, short1(x));
+    }
+
+************THIS IS THE END OF THE METHOD*****************
+static void putShortL(long a, short x) {
+        _put(a, short0(x));
+        _put(a + 1, short1(x));
+    }
+***********THIS IS THE END OF THIS SCC CLONE INSTANCE CODE**************
+static void putShortL(long a, short x) {
+        _put(a, short0(x));
+        _put(a + 1, short1(x));
+    }
+***********THIS IS THE END OF THIS NEW SCC CLONE INSTANCE CODE**************
+AT INDEX : 0 :     
+AT INDEX : 1 : 104,static void putShortL(long a, short x) {
+        _put(a, short0(x));
+        _put(a + 1, short1(x));
+    }
+
+AT INDEX : 2 : 
+
+****************** THATS IT FOR THIS SPECIFIC METHOD CLONE INSTANCE*********************
+    static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+
+************THIS IS THE END OF THE METHOD*****************
+static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+***********THIS IS THE END OF THIS SCC CLONE INSTANCE CODE**************
+static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+***********THIS IS THE END OF THIS NEW SCC CLONE INSTANCE CODE**************
+AT INDEX : 0 :     
+AT INDEX : 1 : 104,static void putShortB(long a, short x) {
+        _put(a, short1(x));
+        _put(a + 1, short0(x));
+    }
+
+AT INDEX : 2 : 
+
+****************** THATS IT FOR THIS SPECIFIC METHOD CLONE INSTANCE*********************
